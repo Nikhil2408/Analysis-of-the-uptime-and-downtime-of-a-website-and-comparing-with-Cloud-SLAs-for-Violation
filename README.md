@@ -1,4 +1,9 @@
 # Analysis-of-the-uptime-and-downtime-of-a-website-and-comparing-with-Cloud-SLAs-for-Violation
+REPORT FOR THE PROJECT
+
+<h2> Attribution </h2>
+
+Hello everyone, you are welcome to make use of this Report and learn from it but please do not copy without giving attribution to the author.
 
 <h2> Abstract </h2>
 
