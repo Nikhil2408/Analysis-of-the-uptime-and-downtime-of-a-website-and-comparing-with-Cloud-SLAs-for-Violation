@@ -10,5 +10,45 @@
 
 <h3> 1.1 OVERVIEW & MOTIVATION </h3>
 
-Cloud computing is being adapted by a growing number of individuals and enterprises due to its wide range of services, including the elastic scaling of resources, automatic service deployment and virtualized resources with its benefits of being economical and easily manageable in nature. Due to these features, cloud computing has become the first choice for many small to large organizations. Gartner Research states that cloud computing is a rapidly emerging technology on which organizations spent an estimated $677 billion from 2013 to 2016. According to a survey Conducted by an IT decision maker for large companies, more than half of the respondents (68%) expected that 50% of their I.T. resources would be migrated to cloud platform. In cloud computing, service level agreement(SLAs) are legal agreements between a service provider and consumer that contain a list of obligations and commitments which need to be satisfied by both parties during the transaction. Violation of such a commitment leads to penalties in terms of money and reputation and thus has to be effectively managed. An SLA is a legal contract which includes service obligations, deliverability, service objectives and service violation penalties. An SLA is not only used to measure the performance of the provider, it also helps to resolve disputes regarding consumer duties. An SLA comprises one or more objectives, called service level objectives (SLO), which comprise one or many low-level metrics. Violations in SLAs leads to penalties in form of money and loss of reputation and thus it needs to be effectively managed. Our analysis will help to test and report the accuracy of time series based machine learning prediction approaches and help the cloud service provider to choose an
-appropriate prediction approach and utilize the best method depending on input data patterns.
+Cloud computing is being adapted by a growing number of individuals and enterprises due to its wide range of services, including the elastic scaling of resources, automatic service deployment and virtualized resources with its benefits of being economical and easily manageable in nature. Due to these features, cloud computing has become the first choice for many small to large organizations. Gartner Research states that cloud computing is a rapidly emerging technology on which organizations spent an estimated $677 billion from 2013 to 2016. According to a survey Conducted by an IT decision maker for large companies, more than half of the respondents (68%) expected that 50% of their I.T. resources would be migrated to cloud platform. In cloud computing, service level agreement(SLAs) are legal agreements between a service provider and consumer that contain a list of obligations and commitments which need to be satisfied by both parties during the transaction. Violation of such a commitment leads to penalties in terms of money and reputation and thus has to be effectively managed. An SLA is a legal contract which includes service obligations, deliverability, service objectives and service violation penalties. An SLA is not only used to measure the performance of the provider, it also helps to resolve disputes regarding consumer duties. An SLA comprises one or more objectives, called service level objectives (SLO), which comprise one or many low-level metrics. Violations in SLAs leads to penalties in form of money and loss of reputation and thus it needs to be effectively managed. Our analysis will help to test and report the accuracy of time series based machine learning prediction approaches and help the cloud service provider to choose an appropriate prediction approach and utilize the best method depending on input data patterns.
+
+<h3> 1.2 OBJECTIVE </h3>
+
+We are going to propose a new framework in order to obtain the best method for predicting the QoS based on the input and output pattern, CPU, and memory. This approach ranks the different prediction approaches according to its predicting accuracy, and this determines the SLA violations. Using this method, the service providers select the method since incorrect adoption causes SLA violation and penalties. We will test and report the accuracy of the time series and machine learning based prediction approaches. Our analysis helps the cloud service provider to choose an appropriate prediction approach and further to utilize the best method depending on input data patterns to obtain an accurate prediction result and better manage their SLAs and to avoid violation penalties.
+
+<h3> 1.3 SCOPE </h3>
+
+The project will determine the SLA Violations between Cloud Service Provider and Cloud Consumer and on that basis we will calculate the penalties that cloud service provider will have to pay due to the violation of SLA terms and conditions. For more precise results time series algorithm of Machine Learning will be used to calculate the penalties that service provider will pay for the violation of SLA (Service Level Agreement) terms and conditions. This project can be widely used in IT industry to ensure service availability to consumer with respect to all terms and conditions and it will result in increased productivity.
+
+<h1> Chapter 2 </h1>
+
+<h2> Software Requirements & Analysis </h2>
+
+<h3> 2.1 FEASIBILITY STUDY </h3>
+
+The project is feasible in all aspects as it can be developed easily and is easy to use. We have developed a server and a client which is implemented by using Flask framework. In this project client requests, server responds. Whether server responds or fails to responds, in each case, log file is created displaying whether the server was up or down. So various time series based machine learning algorithm can be applied to log file data to predict SLA violation. On the basis of SLA Violation, Cloud Service Provider will be liable to pay the compensation to its customer.
+
+<h3> 2.2 REQUIREMENT ANALYSIS </h3>
+
+   <h4>2.2.1 System Hardware and Software Specifications Hardware Specifications: </h4>
+   
+   A PC with following configurations was used for this purpose:
+    
+   <b> CPU </b>
+   1. RAM: 4 GB
+    
+   2. No of cores:4
+    
+   3. No of threads:8
+    
+   4. Clock Speed: 2.13GHz
+    
+   5. Instruction Set: 64 bit
+    
+   <b> Software Specifications: </b>
+    
+   1. Python3.6
+    
+   2. Flask
+    
+   3. Panda Library
