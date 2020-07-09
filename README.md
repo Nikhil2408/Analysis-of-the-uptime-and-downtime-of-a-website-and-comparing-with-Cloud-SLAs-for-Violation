@@ -81,3 +81,24 @@ An SLA will commonly use technical definitions that quantify the level of servic
 * How long it takes to resolve issues.
 
 * A process for how to handle contract changes.
+
+<h3> 2.5 VIOLATION IN CLOUD SLAs </h3>
+
+Cloud prefers or are obliged to have a certain Service Level Agreement (SLA) in place before delivering any service to its valuable customers. The SLA sets a definite time frame in which services are to be delivered to the valuable customers. If they are not delivered within the proposed time frame, SLA violation occurs and Service Provider is imposed by a penalty.
+
+<h3> 2.6 PENALTIES ON SLA VIOLATION </h3>
+
+Service level agreement penalties will vary from contract to contract. When they are being drafted,
+several parameters for these penalties should be considered. These are:
+
+<b> Service availability : -</b> This involves factors like network uptime, database availability, and data center resources. Penalties should be included as a deterrent against service downtime, as such downtime could negatively affect business productivity.
+
+<b> Service quality: -</b> This involves the guarantee of performance, the number of defects or errors allowed in a product or service, process gaps, and other quality issues. One approach to consider is to levy a penalty for every failure that was made to meet these objectives. There are a variety of penalties that may be incurred from service level violations. The three most common are:
+
+<b> Financial penalties:- </b> With these, the vendor will be required to pay back to the customer the amount of damages that was agreed upon in the contract. This may not amount to a full reimbursement of the service fee paid by the customer for the job.
+
+<b> Service credits:-</b> With these, the vendor will reimburse the customer for the cost of the work that was done or offer credit for future work to be done. In either event, actually funds are not being transferred.
+
+<b> License extension or support:- </b>With this, the vendor will be required to extend the license’s term or offer further support to the customer without charge, which may include development and maintenance.
+
+Such penalties must be set out in the language of the service contract; otherwise, they will not be enforceable. Furthermore, of these penalties, the service credit and license extension penalty may not be considered adequate compensation by some, as some might question the value of receiving the continued services of a provider that fails to meet its quality levels. Rather, employing a combination of penalties may be a better approach, while at the same time including an incentive like a monetary bonus for satisfactory or beyond satisfactory work.
