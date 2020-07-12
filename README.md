@@ -267,7 +267,9 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
 * <b>Activate the virtual environment</b>
 
   -> Activate the Virtual Environment by following commands
+  
    $ source bin activate
+   
    (env) $
    
   -> By this we enable our server code to access the pre-installed dependencies.
@@ -293,9 +295,13 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
 * <b> Other Information</b>
 
   Type of server loading: Lazy Loading
+  
   Running on: 0.0.0.0:8080
+  
   Environment: Production
+  
   Type of server: development
+  
   Debugger Pin: 223-091-036
 
 
@@ -304,9 +310,13 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
 * <b> End point for accessing the service </b>
 
   0.0.0.0:8082/filtered?inputpara=
+  
   0.0.0.0 : IP Address
+  
   8082 : Port number
+  
   filtered : Route
+  
   input para: Variable for get method
 
 * <b> Example </b>
@@ -363,8 +373,11 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
 * <b> Log Data Information:</b>
 
   Format Used: "%{asctime}$, %{message}$" , "%Y-%m-%d,%H:%M:%S"
+  
   No of Columns: 4
+  
   Column Details: Date_Stamp, Time_Stamp, Server_Alpha_Status, Server_Numerical_Status
+  
   Backup Count: 1
 
 <h3> Client Activate: (Cloud Service Consumer) </h3>
@@ -378,6 +391,7 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
 * <b> Activate the virtual environment </b>
 
   -> Activate the Virtual Environment by following commands
+  
    $ source bin activate
    
    (env) $
@@ -446,16 +460,21 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
 * <b> Sample Log Entry of client application </b>
 
   shit
+  
   [2019-12-13 13:06:33,095] WARNING in client: serverup, 1
+  
   127.0.0.1 -- [12/DEC/2019 13:06:33 "GET/plaintext?inputtext-shit HTTP/1.1" 200
 
 * <b> Sample Log Entry of server application</b>
 
   shit
+  
   127.0.0.1 -- [12/DEC/2019 13:06:33 "GET/plaintext?inputtext-shit HTTP/1.1" 200
 
 * <b> Sample Log Entry of Shell Script</b>
 
   {
+  
    "message":"**"
+   
   }
