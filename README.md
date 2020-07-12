@@ -210,7 +210,7 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
 
 <h3> 3.4 LEVEL 1 DATA FLOW DIAGRAM </h3>
 
-![](Level%201%20DFD.png)
+![](images/Level%201%20DFD.png)
 
 <h3> 3.5 GANTT CHART </h3>
 
