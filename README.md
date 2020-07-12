@@ -478,3 +478,25 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
    "message":"**"
    
   }
+
+<h3> Front GUI:- </h3>
+
+![](images/Front%20GUI.png)
+
+<h3> Log File:- </h3>
+
+![](images/Log%20file.png)
+
+<h3> Data Analysis Code:- </h3>
+
+![](images/Data%20Analysis%20Code.png)
+
+![](images/Data%20Analysis%20Code%202.png)
+
+<h3> Data Analysis Graph:- </h3>
+
+Following Data Analysis Graph is depicting the server availability and
+server unavailability for a given period of time (1 Day i.e. 13 Dec 2019 - 14 Dec 2019) using Pandas Library of Python and on that basis violation, determination of SLA Violation can be made and Cloud Service Provider will have to pay specified penalties to its customer (end user) as per
+SLA Terms and Conditions.
+
+![](images/Analysis%20Graph.png)
