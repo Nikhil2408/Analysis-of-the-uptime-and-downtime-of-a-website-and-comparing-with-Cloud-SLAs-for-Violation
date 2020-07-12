@@ -191,3 +191,10 @@ In 2018, a self-driving car from Uber failed to detect a pedestrian, who was kil
 Pandas is quite a game changer when it comes to analyzing data with Python and it is one of the most preferred and widely used tools in data munging/wrangling if not THE most used one. Pandas is an open source, free to use (under a BSD license) and it was originally written by Wes McKinney.
 
 What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a SQL database) and creates a Python object with rows and columns called data frame that looks very similar to table in a statistical software (think Excel or SPSS for example. People who are familiar with R would see similarities to R too). This is so much easier to work with in comparison to working with lists and/or dictionaries through for loops or list comprehension.
+
+<h1> Chapter 3 </h1>
+
+<h2> Software Design </h2>
+
+<h3> 3.1 SYSTEM MODULES</h3>
+
