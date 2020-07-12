@@ -500,3 +500,55 @@ server unavailability for a given period of time (1 Day i.e. 13 Dec 2019 - 14 De
 SLA Terms and Conditions.
 
 ![](images/Analysis%20Graph.png)
+
+
+<h1> Chapter 5 </h1>
+
+<h2> Conclusion </h2>
+
+The project determines the SLA Violations between Cloud Service Provider and Cloud Consumer using the Pandas Library and on that basis we will calculate the penalties that cloud service provider will have to pay due to the violation of SLA terms and conditions. For more precise results time series algorithm of Machine Learning can be used to calculate the penalties that service provider will pay for the violation of SLA (Service Level Agreement) terms and conditions. This project can be widely used in IT industry to ensure service availability to consumer w.r.t. all terms and conditions and it will result in increased productivity of the specific organization.
+
+![](images/Analysis%20Graph.png)
+
+Following Data Analysis Graph is depicting the server availability and server unavailability for a given period of time (1 Day i.e. 13 Dec 2019 - 14 Dec 2019) using Pandas Library of Python and on that basis violation, determination of SLA Violation can be made and Cloud Service Provider will have to pay specified penalties to its customer (end user) as per SLA Terms and Conditions.
+
+
+<h1> Chapter 6 </h1>
+
+<h2> Summary </h2>
+
+This prediction based concept is very important and can be utilized and applied for accurate service management of service like in:-
+
+<b> * Cloud of Things (CoT) environment </b> 
+
+In the recent past, cloud computing in combination with the Internet of Things has given rise to a new and dynamic area, namely the Cloud of Things (CoT) for service delivery. Despite the various benefits such a paradigm provides, it also brings with it challenges that need to be managed under a
+dynamic environment to achieve the service aims. This dynamism in QoS is not only observed during the formation of the SLAs but also at run-time. Hence, frequent changes in QoS which are both expected according to a pattern or dependent on other external conditions need to be captured and managed to avoid service violations. To manage the QoS according to a pattern, QoS prediction is one of the critical tasks. Furthermore, in the CoT, as different services from different regions are amalgamated to achieve the required service, the predicted QoS should not only be for individual
+services but also for the combined ones. But before this can take place, QoS attributes such as response time and service availability need to be predicted over a period both before and after service formation to proactively manage the risk of service violations. To achieve this, service providers need to choose an appropriate prediction approach which, according to the past characteristics of the input’s QoS, gives the most accurate future QoS values.
+
+<b> * Proactive healthcare management </b>
+
+With the increase in the population and the strain it places on the health care system, the focus these days is on transforming from a reactive sick care to a proactive health care system. In a proactive model, the objective is to identify various factors such as at-risk individuals based on their current health record data, predict the onset of diseases and predict the risks of individuals being exposed to certain chronic conditions. To achieve these goals, predictive and descriptive types of data analytics have been utilized to predict and categorize patients in these risk profiles. Having such insights is also critical for better government planning and management so that resources can be allocated appropriately. To achieve the same, the recent focus on healthcare has shifted towards predictive analytics. The objective is to use statistical methods to predict outcomes for specific patients in certain conditions. The objective is not to replace the main role of the physician but to provide him with superior tools and methods that will help them to better and more proactively manage a patient’s health. To assist these goals, the predicted results need to be accurate hence, using the correct algorithm is key.
+
+<b> * Stock market prediction </b>
+
+Stock markets are volatile and investors need appropriate sophisticated prediction techniques that will pre-determine how the markets will behave. Such techniques are also beneficial to the regulators in helping them to take corrective measures. To achieve this, using prediction methods that can capture the existing patterns and trends in the previous patterns and use these to forecast future trends is critical. However, a comparison of the methods to determine the accuracy of each is missing. The presented analyses can assist in addressing this gap and thereby helping in the accurate prediction of stock market patterns and trends.
+
+
+<h2> References </h2>
+
+* Comparing time series with machine learning-based prediction approaches for violation management in Cloud SLAs.
+
+- WALAYAT HUSSAIN, School of Systems, Management and Leadership, Faculty of
+Engineering and Information Technology, Australian University.
+
+- FAROOKH KHADEER HUSSAIN, Centre for Artificial Intelligence, School of Software, Faculty of Engineering and Information Technology, University of Technology Sydney, NSW, Australia.
+
+-MORTEZA SABERI, School of Business, University of New South Wales, Canberra, Australia.
+
+-OMAR KHADEER HUSSAIN, School of Business, University of New South Wales,
+Canberra, Australia.
+
+-ELIZABETH CHANG, School of Business, University of New South Wales, Canberra, Australia.
+
+* SLA Violation Prediction in Cloud Computing: A Machine Learning perspective
+-REYHANE ASKARI HEMMAT, ABDELHAKIM HAFID.
