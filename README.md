@@ -198,3 +198,4 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
 
 <h3> 3.1 SYSTEM MODULES</h3>
 
+![](images/Figure%203.1%20System%20Modules.png)
