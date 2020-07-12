@@ -324,3 +324,135 @@ Format: JSON
 JSON key: "message"
 
 JSON value: "this is ****"
+
+
+<h3> Client Code: (Cloud Service Consumer) </h3>
+
+* <b> Framework Used </b>
+
+Flask Version 1.1.2
+
+* <b> Modules Used: </b>
+----------------------
+1. urllib request : for JSON response operations
+2. regular expression : for string operations
+
+* <b> Routes: </b>
+
+1. home : renders index.html where user enter the string for validation
+2. documen : renders documentation.html the user guide for integration
+3. filtered : return the validate string response to the user
+
+* <b> Templates: </b>
+
+1. index.html
+2. documentation.html
+
+* <b> Client Configuration: </b>
+
+1. IP Address Host: 127.0.0.1
+2. IP Address Port: 8092
+3. Status of Debug Mode: True
+
+* <b> Response Status Code: </b>
+
+1. Equal to 200: Server Up with numerical status 1
+2. Not Equal to 200: Server Down with numerical status 2
+
+* <b> Log Data Information:</b>
+
+Format Used: "%{asctime}$, %{message}$" , "%Y-%m-%d,%H:%M:%S"
+No of Columns: 4
+Column Details: Date_Stamp, Time_Stamp, Server_Alpha_Status, Server_Numerical_Status
+Backup Count: 1
+
+<h3> Client Activate: (Cloud Service Consumer) </h3>
+
+* <b> Client Configuration:</b>
+
+1. IP Address Host: 127.0.0.1
+2. IP Address Port: 8092
+3. Status of Debug Mode: True
+
+* <b> Activate the virtual environment </b>
+
+-> Activate the Virtual Environment by following commands
+   $ source bin activate
+   (env) $
+   
+->By this we enable our client code to access the pre-installed dependencies.
+
+<h3> Client Running: (Cloud Service Consumer) </h3>
+
+* <b> Client Configuration: </b>
+
+1. IP Address Host: 127.0.0.1
+2. IP Address Port: 8092
+3. Status of Debug Mode: True
+
+* <b> Activate the virtual environment </b>
+
+->$ source bin activate
+->(env) $
+
+* <b> Command to run server </b>
+
+->$ python3 client.py
+
+* <b> Other Information </b>
+
+Type of client server loading: Lazy Loading
+
+Running on: 127.0.0.1:8092
+
+Environment: Production
+
+Type of server: development
+
+Environment: Production
+
+Debugger Pin: 223-091-836
+
+
+<h3> Running server, client and shell script:- </h3>
+
+* <b> Client Configuration: </b>
+
+1. IP Address Host: 127.0.0.1
+2. IP Address Port: 8092
+3. Status of Debug Mode: True
+
+* <b> Server Configuration: </b>
+
+1. IP Address Host: 0.0.0.0
+2. IP Address Port: 8082
+3. Status of Debug Mode: True
+
+* <b> Client Running Command</b>
+
+->$ python3 client.py
+
+* <b> Server Running Command </b>
+
+->$ python3 Index.py
+
+* <b> Shell Script Running Command </b>
+
+->$ ./script.sh
+
+* <b> Sample Log Entry of client application </b>
+
+shit
+[2019-12-13 13:06:33,095] WARNING in client: serverup, 1
+127.0.0.1 -- [12/DEC/2019 13:06:33 "GET/plaintext?inputtext-shit HTTP/1.1" 200
+
+* <b> Sample Log Entry of server application</b>
+
+shit
+127.0.0.1 -- [12/DEC/2019 13:06:33 "GET/plaintext?inputtext-shit HTTP/1.1" 200
+
+* <b> Sample Log Entry of Shell Script</b>
+
+{
+"message":"**"
+}
