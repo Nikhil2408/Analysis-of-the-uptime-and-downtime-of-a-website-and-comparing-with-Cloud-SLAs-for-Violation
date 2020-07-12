@@ -224,53 +224,53 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
 
 * <b> Framework Used </b>
 
-Flask Version 1.1.2
+     Flask Version 1.1.2
 
 * <b> Modules Used: </b>
 
-1. urllib request: for JSON response operations
-2. regular expression: for string operations
+  1. urllib request: for JSON response operations
+  2. regular expression: for string operations
 
 * <b> Routes: </b>
 
-1. home: renders index.html where user enter the string for validation
-2. documen: renders documentation.html the user guide for integration
-3. filtered: return the validate string response to the user
+  1. home: renders index.html where user enter the string for validation
+  2. documen: renders documentation.html the user guide for integration
+  3. filtered: return the validate string response to the user
 
 * <b> Templates: </b>
 
-1. index.html
-2. documentation.html
+  1. index.html
+  2. documentation.html
 
 * <b> Server Configuration: </b>
 
-1. IP Address Host: 0.0.0.0
-2. IP Address Port: 8080
-3. Status of Debug Mode: True
+  1. IP Address Host: 0.0.0.0
+  2. IP Address Port: 8080
+  3. Status of Debug Mode: True
 
 * <b> Input: </b>
 
-String Entered by the user.
+  String Entered by the user.
 
 * <b> Output:</b>
 
-return censored string to the user by removing abusive words.
+  return censored string to the user by removing abusive words.
 
 <h3> Server Activate: (Cloud Service Provider) </h3>
 
 * <b>Server Configuration:</b>
 
-1. IP Address Host: 0.0.0.0
-2. IP Address Port: 8080
-3. Status of Debug Mode: True
+  1. IP Address Host: 0.0.0.0
+  2. IP Address Port: 8080
+  3. Status of Debug Mode: True
 
 * <b>Activate the virtual environment</b>
 
--> Activate the Virtual Environment by following commands
+  -> Activate the Virtual Environment by following commands
    $ source bin activate
    (env) $
    
--> By this we enable our server code to access the pre-installed dependencies.
+  -> By this we enable our server code to access the pre-installed dependencies.
 
 <h3> Server Running: (Cloud Service Provider) </h3>
 
