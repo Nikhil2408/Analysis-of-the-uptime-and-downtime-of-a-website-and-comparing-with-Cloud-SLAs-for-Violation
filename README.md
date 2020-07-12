@@ -538,17 +538,15 @@ Stock markets are volatile and investors need appropriate sophisticated predicti
 
 * Comparing time series with machine learning-based prediction approaches for violation management in Cloud SLAs.
 
-- WALAYAT HUSSAIN, School of Systems, Management and Leadership, Faculty of
-Engineering and Information Technology, Australian University.
+ -WALAYAT HUSSAIN, School of Systems, Management and Leadership, Faculty of Engineering and Information Technology, Australian University.
 
-- FAROOKH KHADEER HUSSAIN, Centre for Artificial Intelligence, School of Software, Faculty of Engineering and Information Technology, University of Technology Sydney, NSW, Australia.
+ -FAROOKH KHADEER HUSSAIN, Centre for Artificial Intelligence, School of Software, Faculty of Engineering and Information Technology, University of Technology Sydney, NSW, Australia.
 
--MORTEZA SABERI, School of Business, University of New South Wales, Canberra, Australia.
+ -MORTEZA SABERI, School of Business, University of New South Wales, Canberra, Australia.
 
--OMAR KHADEER HUSSAIN, School of Business, University of New South Wales,
-Canberra, Australia.
+ -OMAR KHADEER HUSSAIN, School of Business, University of New South Wales, Canberra, Australia.
 
--ELIZABETH CHANG, School of Business, University of New South Wales, Canberra, Australia.
+ -ELIZABETH CHANG, School of Business, University of New South Wales, Canberra, Australia.
 
 * SLA Violation Prediction in Cloud Computing: A Machine Learning perspective
 -REYHANE ASKARI HEMMAT, ABDELHAKIM HAFID.
