@@ -148,3 +148,46 @@ These are:-
 <b> Reinforcement learning:</b> A computer program interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicle or playing a game against an opponent) as it navigates its problem space, the program is provided feedback that's analogous to rewards, which it tries to maximize.
 
 Other approaches or processes have since developed that don't fit neatly into this three-fold categorization, and sometimes more than one is used by the same machine learning system. For example topic modeling, dimensionality reduction or meta learning. As of 2020, deep learning had become the dominant approach for much ongoing work in the field of machine learning.
+
+<h3>2.10 APPLICATIONS OF MACHINE LEARNING</h3>
+
+There are many applications for machine learning, including:-
+
+* Agriculture
+* Anatomy
+* Adaptive Websites
+* Affective Computing
+* Banking
+* Bioinformatics
+* Cheminformatics
+* Citizen Science
+* Computer Networks
+* Computer Vision
+* Data Quality
+* Information Retrieval
+
+<h3> 2.11 MACHINE LEARNING METHODS </h3>
+
+* Regression
+* Classification
+* Clustering
+* Dimensionality Reduction
+* Ensemble Methods
+* Neutral Nets and Deep Learning
+* Transfer Learning
+* Reinforcement Learning
+* Natural Language Processing
+* Word Embeddings
+
+<h3>2.12 LIMITATIONS OF MACHINE LEARNING</h3>
+
+Although machine learning has been transformative in some fields, machine-learning programs often fail to deliver expected results. Reasons for this are numerous: lack of (suitable) data, lack of access to the data, data bias, privacy problems, badly chosen tasks and algorithms, wrong tools and
+people, lack of resources, and evaluation problems.
+
+In 2018, a self-driving car from Uber failed to detect a pedestrian, who was killed after a collision. Attempts to use machine learning in healthcare with the IBM Watson system failed to deliver even after years of time and billions of investment.
+
+<h3>2.13 PANDAS LIBRARY</h3>
+
+Pandas is quite a game changer when it comes to analyzing data with Python and it is one of the most preferred and widely used tools in data munging/wrangling if not THE most used one. Pandas is an open source, free to use (under a BSD license) and it was originally written by Wes McKinney.
+
+What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a SQL database) and creates a Python object with rows and columns called data frame that looks very similar to table in a statistical software (think Excel or SPSS for example. People who are familiar with R would see similarities to R too). This is so much easier to work with in comparison to working with lists and/or dictionaries through for loops or list comprehension.
