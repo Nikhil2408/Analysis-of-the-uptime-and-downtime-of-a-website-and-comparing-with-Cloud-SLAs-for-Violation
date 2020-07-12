@@ -198,4 +198,20 @@ What’s cool about Pandas is that it takes data (like a CSV or TSV file, or a S
 
 <h3> 3.1 SYSTEM MODULES</h3>
 
-![](images/Figure%203.1%20System%20Modules.png)
+![](images/System%20Modules.png)
+
+<h3> 3.2 USE CASE DIAGRAM </h3>
+
+![](images/Use%20Case%20Diagram.png)
+
+<h3> 3.3 LEVEL 0 DATA FLOW DIAGRAM </h3>
+
+![](images/Level%200%20DFD.png)
+
+<h3> 3.4 LEVEL 1 DATA FLOW DIAGRAM </h3>
+
+![](Level%201%20DFD.png)
+
+<h3> 3.5 GANTT CHART </h3>
+
+![](images/Gantt%20Chart.png)
